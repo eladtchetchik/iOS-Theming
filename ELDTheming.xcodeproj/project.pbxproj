@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F260437B1C5A720700E0DFA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F260437A1C5A720700E0DFA5 /* main.m */; };
+		F260437E1C5A720700E0DFA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F260437D1C5A720700E0DFA5 /* AppDelegate.m */; };
+		F26043811C5A720700E0DFA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26043801C5A720700E0DFA5 /* ViewController.m */; };
+		F26043841C5A720700E0DFA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26043821C5A720700E0DFA5 /* Main.storyboard */; };
+		F26043861C5A720700E0DFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26043851C5A720700E0DFA5 /* Assets.xcassets */; };
+		F26043891C5A720700E0DFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26043871C5A720700E0DFA5 /* LaunchScreen.storyboard */; };
+		F26043A31C5A72BC00E0DFA5 /* ELDKeypathStyleProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F26043971C5A72BC00E0DFA5 /* ELDKeypathStyleProperty.m */; };
+		F26043A41C5A72BC00E0DFA5 /* ELDSelectorStyleProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F260439A1C5A72BC00E0DFA5 /* ELDSelectorStyleProperty.m */; };
+		F26043A51C5A72BC00E0DFA5 /* ELDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F260439C1C5A72BC00E0DFA5 /* ELDStyle.m */; };
+		F26043A71C5A72BC00E0DFA5 /* ELDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F26043A01C5A72BC00E0DFA5 /* ELDTheme.m */; };
+		F26043A81C5A72BC00E0DFA5 /* ELDThemeDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = F26043A21C5A72BC00E0DFA5 /* ELDThemeDecorator.m */; };
+		F26043AB1C5A749500E0DFA5 /* UIView+ELD_Theme_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F26043AA1C5A749500E0DFA5 /* UIView+ELD_Theme_Extensions.m */; };
+		F26043B31C5A75B900E0DFA5 /* NSObject+ELD_Theme_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F26043B01C5A75B900E0DFA5 /* NSObject+ELD_Theme_Extensions.m */; };
+		F26043B41C5A75B900E0DFA5 /* NSValue+ELD_Theme_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F26043B21C5A75B900E0DFA5 /* NSValue+ELD_Theme_Extensions.m */; };
+		F260441F1C5BC1D300E0DFA5 /* ELDThemeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F260441E1C5BC1D300E0DFA5 /* ELDThemeFactory.m */; };
+		F26044211C5CB9E500E0DFA5 /* ThemeWording.strings in Resources */ = {isa = PBXBuildFile; fileRef = F26044201C5CB9E500E0DFA5 /* ThemeWording.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F26043761C5A720700E0DFA5 /* ELDTheming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELDTheming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F260437A1C5A720700E0DFA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F260437C1C5A720700E0DFA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F260437D1C5A720700E0DFA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F260437F1C5A720700E0DFA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F26043801C5A720700E0DFA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F26043831C5A720700E0DFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F26043851C5A720700E0DFA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26043881C5A720700E0DFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F260438A1C5A720700E0DFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26043961C5A72BC00E0DFA5 /* ELDKeypathStyleProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELDKeypathStyleProperty.h; path = "Theme Application/ELDKeypathStyleProperty.h"; sourceTree = "<group>"; };
+		F26043971C5A72BC00E0DFA5 /* ELDKeypathStyleProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELDKeypathStyleProperty.m; path = "Theme Application/ELDKeypathStyleProperty.m"; sourceTree = "<group>"; };
+		F26043981C5A72BC00E0DFA5 /* ELDStyleProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELDStyleProperty.h; path = "Theme Application/ELDStyleProperty.h"; sourceTree = "<group>"; };
+		F26043991C5A72BC00E0DFA5 /* ELDSelectorStyleProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELDSelectorStyleProperty.h; path = "Theme Application/ELDSelectorStyleProperty.h"; sourceTree = "<group>"; };
+		F260439A1C5A72BC00E0DFA5 /* ELDSelectorStyleProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELDSelectorStyleProperty.m; path = "Theme Application/ELDSelectorStyleProperty.m"; sourceTree = "<group>"; };
+		F260439B1C5A72BC00E0DFA5 /* ELDStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELDStyle.h; path = "Theme Application/ELDStyle.h"; sourceTree = "<group>"; };
+		F260439C1C5A72BC00E0DFA5 /* ELDStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELDStyle.m; path = "Theme Application/ELDStyle.m"; sourceTree = "<group>"; };
+		F260439F1C5A72BC00E0DFA5 /* ELDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELDTheme.h; path = "Theme Application/ELDTheme.h"; sourceTree = "<group>"; };
+		F26043A01C5A72BC00E0DFA5 /* ELDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELDTheme.m; path = "Theme Application/ELDTheme.m"; sourceTree = "<group>"; };
+		F26043A11C5A72BC00E0DFA5 /* ELDThemeDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELDThemeDecorator.h; path = "Theme Application/ELDThemeDecorator.h"; sourceTree = "<group>"; };
+		F26043A21C5A72BC00E0DFA5 /* ELDThemeDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELDThemeDecorator.m; path = "Theme Application/ELDThemeDecorator.m"; sourceTree = "<group>"; };
+		F26043A91C5A749500E0DFA5 /* UIView+ELD_Theme_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ELD_Theme_Extensions.h"; path = "Theme Application/UIView+ELD_Theme_Extensions.h"; sourceTree = "<group>"; };
+		F26043AA1C5A749500E0DFA5 /* UIView+ELD_Theme_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ELD_Theme_Extensions.m"; path = "Theme Application/UIView+ELD_Theme_Extensions.m"; sourceTree = "<group>"; };
+		F26043AF1C5A75B900E0DFA5 /* NSObject+ELD_Theme_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ELD_Theme_Extensions.h"; path = "Theme Application/NSObject+ELD_Theme_Extensions.h"; sourceTree = "<group>"; };
+		F26043B01C5A75B900E0DFA5 /* NSObject+ELD_Theme_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ELD_Theme_Extensions.m"; path = "Theme Application/NSObject+ELD_Theme_Extensions.m"; sourceTree = "<group>"; };
+		F26043B11C5A75B900E0DFA5 /* NSValue+ELD_Theme_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSValue+ELD_Theme_Extensions.h"; path = "Theme Application/NSValue+ELD_Theme_Extensions.h"; sourceTree = "<group>"; };
+		F26043B21C5A75B900E0DFA5 /* NSValue+ELD_Theme_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSValue+ELD_Theme_Extensions.m"; path = "Theme Application/NSValue+ELD_Theme_Extensions.m"; sourceTree = "<group>"; };
+		F260441D1C5BC1D300E0DFA5 /* ELDThemeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELDThemeFactory.h; sourceTree = "<group>"; };
+		F260441E1C5BC1D300E0DFA5 /* ELDThemeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELDThemeFactory.m; sourceTree = "<group>"; };
+		F26044201C5CB9E500E0DFA5 /* ThemeWording.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ThemeWording.strings; path = "Theme Application/ThemeWording.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26043731C5A720700E0DFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F260436D1C5A720700E0DFA5 = {
+			isa = PBXGroup;
+			children = (
+				F26043781C5A720700E0DFA5 /* ELDTheming */,
+				F26043771C5A720700E0DFA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26043771C5A720700E0DFA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26043761C5A720700E0DFA5 /* ELDTheming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26043781C5A720700E0DFA5 /* ELDTheming */ = {
+			isa = PBXGroup;
+			children = (
+				F26043911C5A722800E0DFA5 /* App Related */,
+				F26043921C5A724100E0DFA5 /* Classes */,
+				F26043901C5A720E00E0DFA5 /* Theming */,
+				F260441C1C5BC13500E0DFA5 /* Extensions */,
+				F26043931C5A725900E0DFA5 /* Resources */,
+				F26043791C5A720700E0DFA5 /* Supporting Files */,
+			);
+			name = ELDTheming;
+			path = Theming;
+			sourceTree = "<group>";
+		};
+		F26043791C5A720700E0DFA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F260437A1C5A720700E0DFA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F26043901C5A720E00E0DFA5 /* Theming */ = {
+			isa = PBXGroup;
+			children = (
+				F26043961C5A72BC00E0DFA5 /* ELDKeypathStyleProperty.h */,
+				F26043971C5A72BC00E0DFA5 /* ELDKeypathStyleProperty.m */,
+				F26043981C5A72BC00E0DFA5 /* ELDStyleProperty.h */,
+				F26043991C5A72BC00E0DFA5 /* ELDSelectorStyleProperty.h */,
+				F260439A1C5A72BC00E0DFA5 /* ELDSelectorStyleProperty.m */,
+				F260439B1C5A72BC00E0DFA5 /* ELDStyle.h */,
+				F260439C1C5A72BC00E0DFA5 /* ELDStyle.m */,
+				F260439F1C5A72BC00E0DFA5 /* ELDTheme.h */,
+				F26043A01C5A72BC00E0DFA5 /* ELDTheme.m */,
+				F26043A11C5A72BC00E0DFA5 /* ELDThemeDecorator.h */,
+				F26043A21C5A72BC00E0DFA5 /* ELDThemeDecorator.m */,
+				F26044201C5CB9E500E0DFA5 /* ThemeWording.strings */,
+			);
+			name = Theming;
+			sourceTree = "<group>";
+		};
+		F26043911C5A722800E0DFA5 /* App Related */ = {
+			isa = PBXGroup;
+			children = (
+				F260437C1C5A720700E0DFA5 /* AppDelegate.h */,
+				F260437D1C5A720700E0DFA5 /* AppDelegate.m */,
+				F260438A1C5A720700E0DFA5 /* Info.plist */,
+			);
+			name = "App Related";
+			sourceTree = "<group>";
+		};
+		F26043921C5A724100E0DFA5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F260437F1C5A720700E0DFA5 /* ViewController.h */,
+				F26043801C5A720700E0DFA5 /* ViewController.m */,
+				F260441D1C5BC1D300E0DFA5 /* ELDThemeFactory.h */,
+				F260441E1C5BC1D300E0DFA5 /* ELDThemeFactory.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F26043931C5A725900E0DFA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F26043851C5A720700E0DFA5 /* Assets.xcassets */,
+				F26043871C5A720700E0DFA5 /* LaunchScreen.storyboard */,
+				F26043941C5A726100E0DFA5 /* Stroyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F26043941C5A726100E0DFA5 /* Stroyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F26043821C5A720700E0DFA5 /* Main.storyboard */,
+			);
+			name = Stroyboard;
+			sourceTree = "<group>";
+		};
+		F260441C1C5BC13500E0DFA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F26043AF1C5A75B900E0DFA5 /* NSObject+ELD_Theme_Extensions.h */,
+				F26043B01C5A75B900E0DFA5 /* NSObject+ELD_Theme_Extensions.m */,
+				F26043B11C5A75B900E0DFA5 /* NSValue+ELD_Theme_Extensions.h */,
+				F26043B21C5A75B900E0DFA5 /* NSValue+ELD_Theme_Extensions.m */,
+				F26043A91C5A749500E0DFA5 /* UIView+ELD_Theme_Extensions.h */,
+				F26043AA1C5A749500E0DFA5 /* UIView+ELD_Theme_Extensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26043751C5A720700E0DFA5 /* ELDTheming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F260438D1C5A720700E0DFA5 /* Build configuration list for PBXNativeTarget "ELDTheming" */;
+			buildPhases = (
+				F26043721C5A720700E0DFA5 /* Sources */,
+				F26043731C5A720700E0DFA5 /* Frameworks */,
+				F26043741C5A720700E0DFA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELDTheming;
+			productName = Theming;
+			productReference = F26043761C5A720700E0DFA5 /* ELDTheming.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F260436E1C5A720700E0DFA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = elad;
+				TargetAttributes = {
+					F26043751C5A720700E0DFA5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F26043711C5A720700E0DFA5 /* Build configuration list for PBXProject "ELDTheming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F260436D1C5A720700E0DFA5;
+			productRefGroup = F26043771C5A720700E0DFA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26043751C5A720700E0DFA5 /* ELDTheming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26043741C5A720700E0DFA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26043891C5A720700E0DFA5 /* LaunchScreen.storyboard in Resources */,
+				F26044211C5CB9E500E0DFA5 /* ThemeWording.strings in Resources */,
+				F26043861C5A720700E0DFA5 /* Assets.xcassets in Resources */,
+				F26043841C5A720700E0DFA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26043721C5A720700E0DFA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26043B41C5A75B900E0DFA5 /* NSValue+ELD_Theme_Extensions.m in Sources */,
+				F26043AB1C5A749500E0DFA5 /* UIView+ELD_Theme_Extensions.m in Sources */,
+				F26043811C5A720700E0DFA5 /* ViewController.m in Sources */,
+				F26043A51C5A72BC00E0DFA5 /* ELDStyle.m in Sources */,
+				F26043A81C5A72BC00E0DFA5 /* ELDThemeDecorator.m in Sources */,
+				F26043A71C5A72BC00E0DFA5 /* ELDTheme.m in Sources */,
+				F26043A41C5A72BC00E0DFA5 /* ELDSelectorStyleProperty.m in Sources */,
+				F260437E1C5A720700E0DFA5 /* AppDelegate.m in Sources */,
+				F260441F1C5BC1D300E0DFA5 /* ELDThemeFactory.m in Sources */,
+				F260437B1C5A720700E0DFA5 /* main.m in Sources */,
+				F26043B31C5A75B900E0DFA5 /* NSObject+ELD_Theme_Extensions.m in Sources */,
+				F26043A31C5A72BC00E0DFA5 /* ELDKeypathStyleProperty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F26043821C5A720700E0DFA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26043831C5A720700E0DFA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F26043871C5A720700E0DFA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26043881C5A720700E0DFA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F260438B1C5A720700E0DFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F260438C1C5A720700E0DFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F260438E1C5A720700E0DFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Theming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elad.theming.Theming;
+				PRODUCT_NAME = ELDTheming;
+			};
+			name = Debug;
+		};
+		F260438F1C5A720700E0DFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Theming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elad.theming.Theming;
+				PRODUCT_NAME = ELDTheming;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26043711C5A720700E0DFA5 /* Build configuration list for PBXProject "ELDTheming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F260438B1C5A720700E0DFA5 /* Debug */,
+				F260438C1C5A720700E0DFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F260438D1C5A720700E0DFA5 /* Build configuration list for PBXNativeTarget "ELDTheming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F260438E1C5A720700E0DFA5 /* Debug */,
+				F260438F1C5A720700E0DFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F260436E1C5A720700E0DFA5 /* Project object */;
+}
