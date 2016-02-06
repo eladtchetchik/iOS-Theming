@@ -20,7 +20,7 @@ To theme the words add a **themeWording** runtime property and make the value th
 
 ## Example ##
 
-To see the theming of views and words and action, look at the sample project declined. In the app delegate change the code between the two themes to see how the theme quickly changes. 
+To see the theming of views and words in action, look at the sample project cloned. In the app delegate change the code between the two themes to see how the theme quickly changes. 
 
 `   [ELDThemeDecorator setTheme:[ELDThemeFactory sampleThemeOne]];`       
 
@@ -32,10 +32,11 @@ To see how easy it is to theme once setup, add a button to the view and add a ru
 
 If you want to add a themed view through code you can set its custom style property with the name of the style you want applied to it in code and the style will be applied.
 
+` textLabel.customStyle = @"labelStyleOne" `
 
 ### The Basics ###
 
-An app will have a ELDTheme object that is set on the ELDThemeDecorator. An ELDTheme is composed of ELDStyles, and an ELDStyle is composed of ELDStyleProperties. It is also possible to compose a ELDStyle with ELDSyles. At runtime a themed view will ask the ELDThemeDecorator to apply the specific style it has stored in its customStyle property, to itself.  
+An app will have a ELDTheme object that is set on the ELDThemeDecorator. An ELDTheme is composed of ELDStyles, and an ELDStyle is composed of ELDStyleProperties. It is also possible to compose an ELDStyle with ELDSyles. At runtime a themed view will ask the ELDThemeDecorator to apply the specific style it has stored in its customStyle property, to itself.  
 
 ### Future Changes
 
