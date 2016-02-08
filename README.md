@@ -40,7 +40,7 @@ An app will have a ELDTheme object that is set on the ELDThemeDecorator. An ELDT
 
 ### Future Changes
 
-I will soon add code to quickly link in different theme packages to allow for static Theme definitions and ThemeWordings files that can be quickly switched in and out. This will also allow for theming images and assets.
+I will soon add code to quickly link in different theme packages to allow for static Theme definitions and ThemeWordings files that can be quickly switched in and out through Schemes. This will also allow for theming images and assets. I will also be adding an _ELDBlockStyleProperty_ to allow for more complex theming.
 
 #### Code Support 
 
